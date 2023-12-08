@@ -1,0 +1,47 @@
+.store-btn{
+  border: 1px solid rgba(255, 255, 255, 0.514);
+  background-color: rgba(0, 0, 0, 0.233);
+  width:fit-content;
+  padding: 14px 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border-radius: 3px;
+  cursor:pointer;
+  .icon{
+    font-size: 27px;
+    svg{
+      display: block;
+    }
+  }
+  .text{
+    font-size:17px;
+    white-space: nowrap;
+  }
+}
+
+.square-btn{
+  padding: 15px 15px !important;
+}
+.text-btn{
+  background-color:#233cfa;
+  border: none;
+  font-weight: bold;
+}
+.primary-btn{
+  width: fit-content;
+  padding: 1.3rem 6rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  background: transparent;
+  color: #fff;
+  border: solid 1px #555555;
+  line-height:1rem;
+  cursor: pointer;
+  svg{
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+  }
+}

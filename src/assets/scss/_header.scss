@@ -1,0 +1,123 @@
+.header-container{
+  background-color: transparent;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.24);
+  position: absolute;
+  top: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.menu{
+  ul{
+    display: flex;
+    gap: 30px;
+    li{
+      a{
+        color: $main-text-color;
+        font-size: 1rem;
+        padding: 20px 20px;
+        display: inline-block;
+      }
+      
+    }
+  }
+}
+.logo{
+  img{
+    height: 23px;
+    display: block;
+  }
+}
+.active{
+  border-bottom: 2px solid #fff;
+}
+.hamburger-btn{
+    display: none; 
+    color: #fff;
+    font-size: 30px;
+    padding: 15px 0px;
+}
+.m-header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  background: #fff;
+  padding: 2rem 0px;
+  z-index: 11;
+  .m-menu-header{
+    margin-bottom: 2rem;
+    img{
+      margin-left: 30px;
+      height:23px;
+    }
+     .close-btn{
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 47px;
+    display: flex;
+    svg{
+      path{
+        stroke-width: 10;
+      }
+    }
+  }
+  }
+  .m-menu{
+    margin-left: 30px;
+    width:100%;
+    ul{
+      
+      li{
+        cursor: pointer;
+        border-bottom: 1px solid #f2f3f5;
+        a{
+          color: #24303d;
+          font-size: 23px;
+          padding: 1.28em 0;
+          margin: 0;
+          display: block;
+          box-sizing: border-box;
+        }
+       
+       }
+      }
+    }
+  .m-social-media{
+    position: absolute;
+    bottom:113px;
+    padding: 0 2rem;
+    ul{
+      display: flex;
+      align-items: center;
+      li{
+        float: left;
+        margin-right: 2.333rem;
+        margin-bottom: 30px;
+        display: flex;
+        cursor: pointer;
+        img{
+          width:34px;
+        }
+      }
+    }
+  }
+  }
+ 
+
+
+@media screen and (max-width: 1063px) {
+  .menu{
+    display: none;
+  }
+  .hamburger-btn{
+    display: flex;
+    svg{
+      cursor: pointer;
+    }
+  }
+}

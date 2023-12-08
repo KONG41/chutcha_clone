@@ -1,0 +1,453 @@
+.traffic-car-cover {
+  background-color: #13162a;
+
+}
+
+.realtime_count_area {
+  height: 86px;
+  background: rgb(5, 8, 25);
+
+  .container-2 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @media screen and(max-width: 1063px) {
+    height: 247px;
+
+    .container-2 {
+      flex-direction: column;
+    }
+  }
+}
+
+.mySwiper {
+  height: 100%;
+  width: fit-content;
+}
+
+.new-box {
+  border: 1px solid #3b4169;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #90a8eb;
+  font-size: 13px;
+  padding: 2px 16px;
+  letter-spacing: -0.15px;
+  margin: 0 2px 0 0;
+  vertical-align: middle;
+}
+
+.message-alt,
+.today,
+.sum {
+  font-size: 17px;
+  color: #a9adc5;
+  line-height: 1;
+}
+
+.cool,
+.warm {
+  padding: 0 0 0 35px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1;
+  margin-left: 16px;
+  font-size: 23px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.cool {
+  color: #00e5b0;
+  background: url("//img.chutcha.kr/files/website/landing/realcar/img-light-green.png") no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+
+.warm {
+  color: #ff4f4f;
+  background: url(//img.chutcha.kr/files/website/landing/realcar/img-light-red.png) no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+
+.swiper-slide,
+.today,
+.sum {
+  display: flex;
+  align-items: center;
+
+  @media screen and(max-width:1063px) {
+    justify-content: center;
+  }
+
+  ul {
+
+    li {
+      float: left;
+      margin-right: 20px;
+    }
+
+  }
+}
+
+.today,
+.sum {
+  ul {
+    display: flex;
+    align-items: center;
+
+    @media screen and(max-width:1063px) {
+      flex-direction: column;
+      margin-bottom: 15px;
+
+      li {
+        margin-bottom: 10px;
+      }
+    }
+
+    li {
+      span {
+        font-size: 32px;
+        font-weight: bold;
+        margin-right: 3px
+      }
+
+      strong {
+        font-size: 20px;
+      }
+    }
+
+    li:last-child {
+      color: #fff;
+    }
+  }
+}
+
+.signal_search_how {
+  padding: 120px 0 250px;
+
+  .container-2 {
+    padding: 0;
+
+    h1 {
+      img {
+        height: 42px;
+        @media screen and(max-width: 425px) {
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+
+    ul {
+      display: inline-block;
+      width: 794px;
+      height: 115px;
+      margin: 0;
+      padding: 70px 0 0 0 !important;
+      background: url(//img.chutcha.kr/files/website/landing/realcar/signal_search_how_img.png) no-repeat;
+      background-size: 100%;
+      background-position: bottom center;
+
+      @media screen and(max-width:1063px) {
+        background: url('../images/traffic/signal_search_how_img_m.png') no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+        width: 100%;
+        margin-top: 70px;
+        padding: 7rem 0 !important;
+      }
+
+      li {
+        width: 33.3%;
+        display: block;
+        float: left;
+        padding: 90px 0 0 0;
+        text-indent: -9999px;
+        border-right: none !important;
+      }
+
+    }
+  }
+
+}
+
+.signal_search_intro {
+  background: linear-gradient(123deg, #5298f8, #1d37dc 79%);
+
+  .container-2 {
+    padding: 120px 0 55% 0;
+    text-align: center;
+    position: relative;
+
+    h1 {
+      text-align: center;
+      margin: 0 0 35px 0;
+      padding: 75px 0 0 0;
+      background: url(../images/traffic/signal_search_intro_title_img.png) no-repeat;
+      background-size: 125px auto;
+      background-position: center top;
+
+      img {
+        height: 35px;
+        @media screen and(max-width: 1063px) {
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+
+    p {
+      color: #b5c2f5;
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.56;
+      letter-spacing: -0.3px;
+      text-align: center;
+    }
+
+    .app_img {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      padding: 20px 0 0 0;
+      z-index: 10;
+
+      img {
+        height: 100%;
+        @media screen and(max-width: 1063px) {
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.signal_search_step {
+
+  background: #f7fafd;
+
+  .container-2 {
+    padding: 360px 0 100px 0;
+
+    h1 {
+      text-align: center;
+
+      img {
+        height: 41px;
+
+        @media screen and(max-width: 1063px) {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .mySwiper {
+      width: 100%;
+      padding: 300px 0;
+      margin-top: 75px;
+
+      .swiper-wrapper {
+        position: absolute;
+        width: 50%;
+        left: 50%;
+        top: 0;
+
+        .swiper-slide {
+          img {
+            height: 100%
+          }
+        }
+      }
+
+      .swiper-pagination {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        background: #f7fafd;
+        right: 50%;
+        top: 50%;
+        transform: translate(0%, -50%);
+        justify-content: space-between;
+        background-image: url('../images/traffic/signal_search_step_dotted_line.png');
+        background-repeat: no-repeat;
+        background-position: 61px top;
+        background-size: contain;
+
+        .my-pagination {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 55px;
+          background: gray;
+          opacity: unset;
+          p {
+            position: absolute;
+            left: 30%;
+            text-align: left;
+            font-size: 23px;
+            font-weight: bold;
+            opacity: .2;
+
+            span {
+              color: #233cfa;
+            }
+          }
+
+          img {
+            width: 120px;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.signal_search_guide,
+.signal_search_added {
+  background: #3a4490;
+
+  .container-2 {
+    padding: 94px 0 100px;
+    display: flow-root;
+
+    h1 {
+      text-align: center;
+
+      img {
+        height: 58px;
+        @media screen and(max-width:1063px) {
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+
+    .signal_color_guide {
+      margin: 0;
+      padding: 65px 0 0 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      li {
+        width: 329px;
+        margin: 0 46px 30px 0;
+
+        list-style: none;
+
+        position: relative;
+
+        dl {
+          margin: 0;
+          padding: 0;
+
+          dt {
+            margin: 0;
+            padding: 0 0 20px 0;
+            text-align: center;
+
+            img {
+              height: 25px;
+            }
+          }
+
+          dd {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #c2c6e4;
+            font-size: 18px;
+            line-height: 1.56;
+            letter-spacing: -0.3px;
+          }
+
+          dd.img {
+            position: absolute;
+            top: 0;
+
+            img {
+              width: 100%;
+              border-radius: 16px;
+              box-shadow: 0px 10px 20px 0px rgb(13 20 44 / 30%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.signal_search_guide {
+  .container-2 {
+    .signal_color_guide {
+      li {
+        padding: 430px 0 0 0;
+      }
+    }
+  }
+}
+
+.signal_search_added {
+  .container-2 {
+    .signal_color_guide {
+      li {
+        padding: 315px 0 0 0;
+      }
+
+    }
+  }
+}
+
+.signal_search_added,
+.signal_search_qna {
+  .container-2 {
+    border-top: 1px solid #575fa0;
+  }
+}
+
+.signal_search_qna {
+  background: #3a4490;
+
+  .container-2 {
+    h1 {
+      text-align: center;
+
+      img {
+        height: 37px;
+      }
+    }
+
+    ul {
+      margin: 65px 0 0 0;
+      padding: 0;
+    }
+  }
+}
+
+.swiper-pagination-bullet-active {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  background: #233cfa !important;
+  p{
+    opacity: 1 !important;
+  }
+}
+
+.today-sum {
+  display: flex;
+
+  @media screen and(max-width:1063px) {
+    justify-content: space-around;
+    border-top: 1px solid #1e223a;
+    padding: 30px 0;
+  }
+}

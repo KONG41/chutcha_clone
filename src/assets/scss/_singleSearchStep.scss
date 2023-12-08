@@ -1,0 +1,67 @@
+.m-signal_search_step {
+  display: none;
+
+  .container-2 {
+    padding: 60% 0 100px 0;
+
+    h1 {
+      text-align: center;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .m-single-search-step-swiper {
+      width: 100%;
+      // background-image: url('../images/traffic/signal_search_step_dotted_line_m_01.png');
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-position: left 50%;
+      // height: 50rem;
+      padding: 40px 0;
+      background-size: 90% auto;
+      background-position: left 98%;
+
+      img {
+        width: 100%;
+      }
+
+      span {
+        width: 70px;
+        height: 30px;
+        padding: 5px 15px;
+        border-radius: 25px;
+        font-weight: bold;
+        display: inline-block;
+        color: #c6c7cd;
+        background: #fff;
+        border: solid 1px #eef0f6;
+        opacity: 1;
+      }
+
+      span.swiper-pagination-bullet-active {
+        font-weight: bold;
+        color: #233cfa;
+        box-shadow: 0 10px 20px 0 rgb(121 129 158 / 10%), 0 3px 6px 0 rgb(121 129 158 / 5%);
+        background: #fff !important;
+        opacity: 1;
+      }
+      div.swiper-pagination{
+        display: flex;
+        justify-content:space-between;
+      }
+
+    }
+  }
+}
+
+@media screen and(max-width: 1063px) {
+  .m-signal_search_step {
+    display: block;
+  }
+
+  .signal_search_step {
+    display: none;
+  }
+}

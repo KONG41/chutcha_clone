@@ -1,0 +1,28 @@
+
+.to-top{
+  position: fixed;
+  bottom: 14%;
+  right:50px;
+  background: transparent;
+  z-index: 13;
+  img{
+    width: 60px;
+    cursor: pointer;
+  }
+  @media screen and(max-width: 1063px) {
+    bottom: 13%;
+    right: 17px;
+  }
+}
+.app_link_mobile{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  font-size: 1.5em;
+    padding: 1.056em 0;
+    font-weight: bold;
+    color: #ffffff;
+    background: #233cfa;
+    text-align: center;
+    z-index: 10;
+}
